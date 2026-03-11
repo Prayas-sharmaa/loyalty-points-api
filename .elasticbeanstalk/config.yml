@@ -1,0 +1,19 @@
+branch-defaults:
+  default:
+    environment: Loyalti-api-env
+environment-defaults:
+  Loyalti-api-env:
+    branch: null
+    repository: null
+global:
+  application_name: loyalti-api
+  default_ec2_keyname: vockey
+  default_platform: Python 3.14 running on 64bit Amazon Linux 2023
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  sc: null
+  workspace_type: Application
